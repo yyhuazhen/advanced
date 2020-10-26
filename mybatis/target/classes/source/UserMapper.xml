@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+	<select id="findUserById"
+			parameterType="com.kkb.mybatis.po.User"
+			resultType="com.kkb.mybatis.po.User"
+			statementType="prepared">
+		SELECT * FROM user WHERE id = #{id} and sex = #{sex} AND username like '%${username}'
+		<if test="username != null and username !='' ">
+			AND username like '%${username}'
+			<if test="username != null and username !=''">
+				AND 1=1
+			</if>
+		</if>
+	</select>
+</mapper>

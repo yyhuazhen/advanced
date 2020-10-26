@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81c14645-c806-423b-96a0-05d342c22cfd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\repository" />
+        <option name="userSettingsFile" value="H:\installer\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hl3TvZWfZHXKdRgYxzhx8vKTfX" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis/src/main/resources/source" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="yhz.demo.conf" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="yhz.application.phase02.start" />
+      <recent name="yhz.application.phase02.mapper" />
+      <recent name="yhz.application.phase02.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\source" />
+      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\phase02" />
+      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\phase01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StartClass.test">
+    <configuration name="StartClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yhz.demo.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yhz.demo.start" />
+      <option name="MAIN_CLASS_NAME" value="yhz.demo.start.StartClass" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartClass.testRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yhz.demo.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yhz.demo.start" />
+      <option name="MAIN_CLASS_NAME" value="yhz.demo.start.StartClass" />
+      <option name="METHOD_NAME" value="testRegex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yhz.application.phase01.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yhz.application.phase01.start" />
+      <option name="MAIN_CLASS_NAME" value="yhz.application.phase01.start.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testUserDao (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yhz.application.phase02.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yhz.application.phase02.start" />
+      <option name="MAIN_CLASS_NAME" value="yhz.application.phase02.start.UserTest" />
+      <option name="METHOD_NAME" value="testUserDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testUserDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yhz.application.phase01.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yhz.application.phase01.start" />
+      <option name="MAIN_CLASS_NAME" value="yhz.application.phase01.start.UserTest" />
+      <option name="METHOD_NAME" value="testUserDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StartClass.test" />
+        <item itemvalue="JUnit.StartClass.testRegex" />
+        <item itemvalue="JUnit.UserTest.testUserDao" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.UserTest.testUserDao (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81c14645-c806-423b-96a0-05d342c22cfd" name="Default Changelist" comment="" />
+      <created>1600571862566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600571862566</updated>
+      <workItem from="1600571866447" duration="6370000" />
+      <workItem from="1600578695861" duration="199000" />
+      <workItem from="1600578922650" duration="555000" />
+      <workItem from="1600579501863" duration="4272000" />
+      <workItem from="1600692269008" duration="2116000" />
+      <workItem from="1600778479271" duration="1935000" />
+      <workItem from="1600866484226" duration="6307000" />
+      <workItem from="1600951888988" duration="2901000" />
+      <workItem from="1601081792108" duration="6194000" />
+      <workItem from="1603001557902" duration="3800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="271" key="#Scopes" timestamp="1600580595345">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="271" key="#Scopes/0.0.1536.824@0.0.1536.824" timestamp="1600580595345" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600869537517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600869537517" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1600575789571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600575789571" />
+    <state x="570" y="102" key="FileChooserDialogImpl" timestamp="1600579544959">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600579544959" />
+    <state width="746" height="259" key="GridCell.Tab.0.bottom" timestamp="1601088257956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
+    <state width="746" height="259" key="GridCell.Tab.0.center" timestamp="1601088257956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
+    <state width="746" height="259" key="GridCell.Tab.0.left" timestamp="1601088257956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
+    <state width="746" height="259" key="GridCell.Tab.0.right" timestamp="1601088257956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
+    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1601087184375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
+    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1601087184375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
+    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1601087184375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
+    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1601087184375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1600580331411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600580331411" />
+    <state x="308" y="47" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1600578754859">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="308" y="47" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1600578754859" />
+    <state x="499" y="161" key="extract.method.dialog" timestamp="1600871445054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="161" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1600871445054" />
+    <state x="178" y="73" key="new project wizard" timestamp="1600572046461">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600572046461" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601084631311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601084631311" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600952332241">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600952332241" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/tree/DefaultElement.class</url>
+          <line>598</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/yhz/demo/conf/XmlConfigBuilder.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
