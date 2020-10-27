@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c14645-c806-423b-96a0-05d342c22cfd" name="Default Changelist" comment="" />
+    <list default="true" id="81c14645-c806-423b-96a0-05d342c22cfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/start/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/start/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/phase01/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/phase01/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/phase01/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/phase01/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/start/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/start/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/Configration.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/Configration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/XmlConfigBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/XmlConfigBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/start/StartClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/start/StartClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yhz-advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yhz-advanced.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +33,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="G:\repository" />
-        <option name="userSettingsFile" value="H:\installer\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="P:\.m2\repository" />
+        <option name="userSettingsFile" value="P:\installer\Maven\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -35,30 +56,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis/src/main/resources/source" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="yhz.demo.conf" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\private\advanced\mybatis" />
+      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\source" />
+      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\phase02" />
+      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\phase01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="yhz.application.phase02.start" />
       <recent name="yhz.application.phase02.mapper" />
       <recent name="yhz.application.phase02.pojo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\source" />
-      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\phase02" />
-      <recent name="F:\WORK\yhz-advanced\mybatis\src\main\resources\phase01" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="yhz.demo.conf" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StartClass.test">
+  <component name="RunManager" selected="JUnit.UserTest.testUserDao">
     <configuration name="StartClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -140,9 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.testUserDao" />
         <item itemvalue="JUnit.StartClass.test" />
         <item itemvalue="JUnit.StartClass.testRegex" />
-        <item itemvalue="JUnit.UserTest.testUserDao" />
         <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.UserTest.testUserDao (1)" />
       </list>
@@ -168,6 +191,7 @@
       <workItem from="1600951888988" duration="2901000" />
       <workItem from="1601081792108" duration="6194000" />
       <workItem from="1603001557902" duration="3800000" />
+      <workItem from="1603760328110" duration="25276000" />
     </task>
     <servers />
   </component>
@@ -183,50 +207,132 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600869537517" />
+    <state x="685" y="277" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603762227969">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state x="685" y="277" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1896.954@0.0.1896.954" timestamp="1603762227969" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1600575789571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600575789571" />
-    <state x="570" y="102" key="FileChooserDialogImpl" timestamp="1600579544959">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="508" height="466" key="DebuggerActiveHint" timestamp="1603765333594">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="508" height="466" key="DebuggerActiveHint/0.0.1896.954@0.0.1896.954" timestamp="1603765333594" />
+    <state x="704" y="118" key="FileChooserDialogImpl" timestamp="1603760427249">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state x="570" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600579544959" />
-    <state width="746" height="259" key="GridCell.Tab.0.bottom" timestamp="1601088257956">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="704" y="118" key="FileChooserDialogImpl/0.0.1896.954@0.0.1896.954" timestamp="1603760427249" />
+    <state width="1853" height="250" key="GridCell.Tab.0.bottom" timestamp="1603779456644">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="746" height="259" key="GridCell.Tab.0.center" timestamp="1601088257956">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.0.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
+    <state width="1853" height="250" key="GridCell.Tab.0.center" timestamp="1603779456644">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="746" height="259" key="GridCell.Tab.0.left" timestamp="1601088257956">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.0.center/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
+    <state width="1853" height="250" key="GridCell.Tab.0.left" timestamp="1603779456644">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="746" height="259" key="GridCell.Tab.0.right" timestamp="1601088257956">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.0.left/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
+    <state width="1853" height="250" key="GridCell.Tab.0.right" timestamp="1603779456644">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1601087184375">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.0.right/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
+    <state width="1853" height="250" key="GridCell.Tab.1.bottom" timestamp="1603779457256">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1601087184375">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.1.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
+    <state width="1853" height="250" key="GridCell.Tab.1.center" timestamp="1603779457256">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1601087184375">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.1.center/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
+    <state width="1853" height="250" key="GridCell.Tab.1.left" timestamp="1603779457256">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1601087184375">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.1.left/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
+    <state width="1853" height="250" key="GridCell.Tab.1.right" timestamp="1603779457256">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1600580331411">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1853" height="250" key="GridCell.Tab.1.right/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
+    <state width="1853" height="250" key="GridCell.Tab.2.bottom" timestamp="1603769283851">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.2.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603769283851" />
+    <state width="1853" height="250" key="GridCell.Tab.2.center" timestamp="1603769283851">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.2.center/0.0.1896.954@0.0.1896.954" timestamp="1603769283851" />
+    <state width="1853" height="250" key="GridCell.Tab.2.left" timestamp="1603769283851">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.2.left/0.0.1896.954@0.0.1896.954" timestamp="1603769283851" />
+    <state width="1853" height="250" key="GridCell.Tab.2.right" timestamp="1603769283851">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.2.right/0.0.1896.954@0.0.1896.954" timestamp="1603769283851" />
+    <state width="1853" height="250" key="GridCell.Tab.3.bottom" timestamp="1603769284863">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.3.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603769284863" />
+    <state width="1853" height="250" key="GridCell.Tab.3.center" timestamp="1603769284863">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.3.center/0.0.1896.954@0.0.1896.954" timestamp="1603769284863" />
+    <state width="1853" height="250" key="GridCell.Tab.3.left" timestamp="1603769284863">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.3.left/0.0.1896.954@0.0.1896.954" timestamp="1603769284863" />
+    <state width="1853" height="250" key="GridCell.Tab.3.right" timestamp="1603769284863">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.3.right/0.0.1896.954@0.0.1896.954" timestamp="1603769284863" />
+    <state width="1853" height="250" key="GridCell.Tab.4.bottom" timestamp="1603769286142">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.4.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603769286142" />
+    <state width="1853" height="250" key="GridCell.Tab.4.center" timestamp="1603769286141">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.4.center/0.0.1896.954@0.0.1896.954" timestamp="1603769286141" />
+    <state width="1853" height="250" key="GridCell.Tab.4.left" timestamp="1603769286141">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.4.left/0.0.1896.954@0.0.1896.954" timestamp="1603769286141" />
+    <state width="1853" height="250" key="GridCell.Tab.4.right" timestamp="1603769286142">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.4.right/0.0.1896.954@0.0.1896.954" timestamp="1603769286142" />
+    <state width="1853" height="250" key="GridCell.Tab.5.bottom" timestamp="1603769287795">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.5.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603769287795" />
+    <state width="1853" height="250" key="GridCell.Tab.5.center" timestamp="1603769287795">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.5.center/0.0.1896.954@0.0.1896.954" timestamp="1603769287795" />
+    <state width="1853" height="250" key="GridCell.Tab.5.left" timestamp="1603769287795">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.5.left/0.0.1896.954@0.0.1896.954" timestamp="1603769287795" />
+    <state width="1853" height="250" key="GridCell.Tab.5.right" timestamp="1603769287795">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.5.right/0.0.1896.954@0.0.1896.954" timestamp="1603769287795" />
+    <state x="333" y="0" key="SettingsEditor" timestamp="1603760431983">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600580331411" />
+    <state x="333" y="0" key="SettingsEditor/0.0.1896.954@0.0.1896.954" timestamp="1603760431983" />
     <state x="308" y="47" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1600578754859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -243,10 +349,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601084631311" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600952332241">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="532" y="168" width="830" height="785" key="search.everywhere.popup" timestamp="1603763877193">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600952332241" />
+    <state x="532" y="168" width="830" height="785" key="search.everywhere.popup/0.0.1896.954@0.0.1896.954" timestamp="1603763877193" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,6 +367,16 @@
           <url>file://$PROJECT_DIR$/mybatis/src/main/java/yhz/demo/conf/XmlConfigBuilder.java</url>
           <line>88</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/start/UserTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/start/UserTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
