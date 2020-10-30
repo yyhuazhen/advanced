@@ -8,7 +8,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!-- 2：如果parameterType为POJO类型，#{}中的参数名称必须和POJO中的属性名称一致 -->
 	<!-- 3：如果resultType为POJO类型，SELECT中的列名和POJO中的属性名称一致 -->
 	<select id="findById" parameterType="int"
-		resultMap="userMap">
+		resultMap="userMap" >
 		SELECT * FROM user WHERE id = #{id}
 	</select>
 	<resultMap id="userMap" type="yhz.application.phase01.pojo.User">

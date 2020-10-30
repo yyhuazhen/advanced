@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c14645-c806-423b-96a0-05d342c22cfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/start/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase01/start/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/phase01/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/phase01/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/phase01/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/target/classes/phase01/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/phase01/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/phase01/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/phase01/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/start/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/application/phase01/start/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/Configration.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/Configration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/XmlConfigBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/conf/XmlConfigBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/start/StartClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/yhz/demo/start/StartClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yhz-advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yhz-advanced.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +24,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+    <option name="SCOPE" value="All" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -60,6 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -164,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserTest.testUserDao" />
+        <item itemvalue="JUnit.UserTest.testUserDao (1)" />
         <item itemvalue="JUnit.StartClass.test" />
         <item itemvalue="JUnit.StartClass.testRegex" />
         <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.UserTest.testUserDao (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +185,32 @@
       <workItem from="1600951888988" duration="2901000" />
       <workItem from="1601081792108" duration="6194000" />
       <workItem from="1603001557902" duration="3800000" />
-      <workItem from="1603760328110" duration="25276000" />
+      <workItem from="1603760328110" duration="89824000" />
     </task>
+    <task id="LOCAL-00001" summary="modify user">
+      <created>1603793797558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603793797558</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add SqlSession">
+      <created>1603873953661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603873953661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify user" />
+    <MESSAGE value="add SqlSession" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SqlSession" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="271" key="#Scopes" timestamp="1600580595345">
@@ -215,6 +229,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600575789571" />
+    <state x="703" y="179" key="#xdebugger.evaluate" timestamp="1604039203393">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state x="703" y="179" key="#xdebugger.evaluate/0.0.1896.954@0.0.1896.954" timestamp="1604039203393" />
+    <state x="546" y="44" key="CommitChangelistDialog2" timestamp="1603873952242">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state x="546" y="44" key="CommitChangelistDialog2/0.0.1896.954@0.0.1896.954" timestamp="1603873952242" />
     <state width="508" height="466" key="DebuggerActiveHint" timestamp="1603765333594">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
@@ -224,46 +246,46 @@
     </state>
     <state x="570" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600579544959" />
     <state x="704" y="118" key="FileChooserDialogImpl/0.0.1896.954@0.0.1896.954" timestamp="1603760427249" />
-    <state width="1853" height="250" key="GridCell.Tab.0.bottom" timestamp="1603779456644">
+    <state width="1853" height="215" key="GridCell.Tab.0.bottom" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="1853" height="250" key="GridCell.Tab.0.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
-    <state width="1853" height="250" key="GridCell.Tab.0.center" timestamp="1603779456644">
+    <state width="1853" height="215" key="GridCell.Tab.0.bottom/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
+    <state width="1853" height="215" key="GridCell.Tab.0.center" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="1853" height="250" key="GridCell.Tab.0.center/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
-    <state width="1853" height="250" key="GridCell.Tab.0.left" timestamp="1603779456644">
+    <state width="1853" height="215" key="GridCell.Tab.0.center/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
+    <state width="1853" height="215" key="GridCell.Tab.0.left" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="1853" height="250" key="GridCell.Tab.0.left/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
-    <state width="1853" height="250" key="GridCell.Tab.0.right" timestamp="1603779456644">
+    <state width="1853" height="215" key="GridCell.Tab.0.left/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
+    <state width="1853" height="215" key="GridCell.Tab.0.right" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601088257956" />
-    <state width="1853" height="250" key="GridCell.Tab.0.right/0.0.1896.954@0.0.1896.954" timestamp="1603779456644" />
-    <state width="1853" height="250" key="GridCell.Tab.1.bottom" timestamp="1603779457256">
+    <state width="1853" height="215" key="GridCell.Tab.0.right/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
+    <state width="1853" height="215" key="GridCell.Tab.1.bottom" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state width="1853" height="250" key="GridCell.Tab.1.bottom/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
-    <state width="1853" height="250" key="GridCell.Tab.1.center" timestamp="1603779457256">
+    <state width="1853" height="215" key="GridCell.Tab.1.bottom/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
+    <state width="1853" height="215" key="GridCell.Tab.1.center" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state width="1853" height="250" key="GridCell.Tab.1.center/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
-    <state width="1853" height="250" key="GridCell.Tab.1.left" timestamp="1603779457256">
+    <state width="1853" height="215" key="GridCell.Tab.1.center/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
+    <state width="1853" height="215" key="GridCell.Tab.1.left" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state width="1853" height="250" key="GridCell.Tab.1.left/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
-    <state width="1853" height="250" key="GridCell.Tab.1.right" timestamp="1603779457256">
+    <state width="1853" height="215" key="GridCell.Tab.1.left/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
+    <state width="1853" height="215" key="GridCell.Tab.1.right" timestamp="1604045467055">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601087184375" />
-    <state width="1853" height="250" key="GridCell.Tab.1.right/0.0.1896.954@0.0.1896.954" timestamp="1603779457256" />
+    <state width="1853" height="215" key="GridCell.Tab.1.right/0.0.1896.954@0.0.1896.954" timestamp="1604045467055" />
     <state width="1853" height="250" key="GridCell.Tab.2.bottom" timestamp="1603769283851">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
@@ -333,6 +355,14 @@
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600580331411" />
     <state x="333" y="0" key="SettingsEditor/0.0.1896.954@0.0.1896.954" timestamp="1603760431983" />
+    <state x="540" y="210" key="Vcs.Push.Dialog.v2" timestamp="1603873958850">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state x="540" y="210" key="Vcs.Push.Dialog.v2/0.0.1896.954@0.0.1896.954" timestamp="1603873958850" />
+    <state width="956" height="485" key="XDebugger.FullValuePopup" timestamp="1603939914413">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state width="956" height="485" key="XDebugger.FullValuePopup/0.0.1896.954@0.0.1896.954" timestamp="1603939914413" />
     <state x="308" y="47" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1600578754859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -341,19 +371,24 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="161" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1600871445054" />
+    <state x="650" y="264" key="git4idea.merge.GitPullDialog" timestamp="1603793814894">
+      <screen x="0" y="0" width="1896" height="954" />
+    </state>
+    <state x="650" y="264" key="git4idea.merge.GitPullDialog/0.0.1896.954@0.0.1896.954" timestamp="1603793814894" />
     <state x="178" y="73" key="new project wizard" timestamp="1600572046461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600572046461" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1601084631311">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="525" y="217" key="run.anything.popup" timestamp="1603962837666">
+      <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601084631311" />
-    <state x="532" y="168" width="830" height="785" key="search.everywhere.popup" timestamp="1603763877193">
+    <state x="525" y="217" key="run.anything.popup/0.0.1896.954@0.0.1896.954" timestamp="1603962837666" />
+    <state x="532" y="168" width="830" height="785" key="search.everywhere.popup" timestamp="1604044820613">
       <screen x="0" y="0" width="1896" height="954" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600952332241" />
-    <state x="532" y="168" width="830" height="785" key="search.everywhere.popup/0.0.1896.954@0.0.1896.954" timestamp="1603763877193" />
+    <state x="532" y="168" width="830" height="785" key="search.everywhere.popup/0.0.1896.954@0.0.1896.954" timestamp="1604044820613" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,7 +413,47 @@
           <line>29</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/yhz/application/phase02/start/UserTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/org/apache/ibatis/builder/xml/XMLMapperBuilder.class</url>
+          <line>78</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/org/apache/ibatis/parsing/XNode.class</url>
+          <line>320</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/org/apache/ibatis/builder/xml/XMLIncludeTransformer.class</url>
+          <line>66</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/org/apache/ibatis/builder/xml/XMLStatementBuilder.class</url>
+          <line>67</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/org/apache/ibatis/scripting/xmltags/DynamicContext.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/org/apache/ibatis/builder/xml/XMLStatementBuilder.class</url>
+          <line>74</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="org.apache.ibatis.mapping.MappedStatement" fieldName="configuration" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

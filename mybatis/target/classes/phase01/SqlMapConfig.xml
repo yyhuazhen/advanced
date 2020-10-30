@@ -8,7 +8,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 		<environment id="development">
 			<transactionManager type="JDBC" />
 			<dataSource type="POOLED">
-				<property name="driver" value="${db.driver}" />
+				<property name="driver" value="db.driver" />
 				<property name="url" value="${db.url}" />
 				<property name="username" value="${db.username}" />
 				<property name="password" value="${db.password}" />
