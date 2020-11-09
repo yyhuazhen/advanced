@@ -28,7 +28,7 @@ public class UserTest {
     @Test
     public void testUserDao() {
         UserDao dao = new UserDaoImpl(sqlSessionFactory);
-        User user = dao.findById(24);
+        User user = dao.findById(1);
         System.out.println(user.toString());
     }
 }
