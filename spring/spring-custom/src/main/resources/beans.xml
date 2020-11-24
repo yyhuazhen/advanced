@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="student" class="org.example.pojo.Student">
+    <!-- String类型 -->
+    <property name="name" value="zengkeyan"></property>
+    <!-- 引用类型 -->
+    <property name="course" ref="course"></property>
+</bean>
+
+<!-- 该类有一个初始化方法 -->
+<bean id="course" class="org.example.pojo.Course"
+      init-method="init">
+    <!-- String类型 -->
+    <property name="name" value="spring"></property>
+    <!-- Integer类型 -->
+    <property name="age" value="18"></property>
+</bean>
+
+</beans>
