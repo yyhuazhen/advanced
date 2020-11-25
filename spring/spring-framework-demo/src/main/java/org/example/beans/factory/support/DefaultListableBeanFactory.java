@@ -1,21 +1,37 @@
 package org.example.beans.factory.support;
 
+import org.apache.commons.collections.CollectionUtils;
+import org.dom4j.Document;
 import org.example.beans.factory.ConfigurableListableBeanFactory;
 import org.example.beans.factory.config.BeanDefinition;
-import org.example.beans.factory.config.XmlBeanDefinitionBuilder;
+import org.example.beans.factory.resource.Resources;
+import org.example.beans.factory.utils.DocumentReader;
+import org.example.beans.factory.xml.XmlBeanDefinitionBuilder;
 
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class DefaultListableBeanFactory implements ConfigurableListableBeanFactory {
-    private Map<String, BeanDefinition> beanDefinitions;
+    private Map<String, BeanDefinition> beanDefinitions =new HashMap<>();
 
     public DefaultListableBeanFactory(String location) {
         //1 解析xml配置文件,通过一个专门的类来解析
         XmlBeanDefinitionBuilder builder = new XmlBeanDefinitionBuilder(this);
-        BeanDefinition beanDefinition = builder.parseBeanDefinition(location);
-        if (null != beanDefinitions && beanDefinition != null && !beanDefinitions.containsKey(beanDefinition.getId())) {
-            beanDefinitions.put(beanDefinition.getId(), beanDefinition);
+        InputStream inputStream = Resources.genInputStream(location);
+        Document document = DocumentReader.genDocument(inputStream);
+        List<BeanDefinition> results = builder.parseBeanDefinition(document);
+        if (CollectionUtils.isNotEmpty(results)) {
+            results.stream().forEach(each->{
+                if(!beanDefinitions.containsKey(each.getId())){
+                    beanDefinitions.put(each.getId(), each);
+                }else {
+                    throw new RuntimeException("配置文件有误，请检查您的配置文件");
+                }
+            });
         }
+        System.out.println(beanDefinitions.toString());
     }
 
     @Override
