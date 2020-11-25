@@ -11,5 +11,6 @@ public class BeanDefinition {
     private String id;
     private Class<?> classType;
     private String initMethod;
+    private String destroyMethod;
     private List<PropertyValue> propertyValues;
 }
