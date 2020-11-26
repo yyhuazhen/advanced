@@ -1,4 +1,4 @@
-package org.example.beans.factory.config;
+package org.example.beans.definition;
 
 import lombok.Builder;
 import lombok.Data;
@@ -7,6 +7,5 @@ import lombok.Data;
 @Builder
 public class PropertyValue {
     private String name;
-    private String value;
-    private String ref;
+    private Object value;
 }

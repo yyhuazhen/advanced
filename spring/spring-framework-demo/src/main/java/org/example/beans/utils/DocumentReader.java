@@ -1,4 +1,4 @@
-package org.example.beans.factory.utils;
+package org.example.beans.utils;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;

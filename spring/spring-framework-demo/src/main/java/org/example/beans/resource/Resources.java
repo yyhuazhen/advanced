@@ -1,4 +1,4 @@
-package org.example.beans.factory.resource;
+package org.example.beans.resource;
 
 import org.apache.commons.lang3.StringUtils;
 
