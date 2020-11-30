@@ -9,6 +9,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TestSpringFramework {
 
     public static void main(String[] args) {
@@ -16,7 +19,6 @@ public class TestSpringFramework {
 //        ApplicationContext ac = new ClassPathXmlApplicationContext(location);
 //        Student c = ac.getBean("student", Student.class);
 //        System.out.println(c.toString());
-        BeanFactory factory1;
         DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
         reader.loadBeanDefinitions(new ClassPathResource(location));

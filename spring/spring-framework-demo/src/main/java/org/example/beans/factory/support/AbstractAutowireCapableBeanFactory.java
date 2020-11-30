@@ -15,14 +15,19 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
-public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory implements AutowireCapableBeanFactory {
+public  abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory implements AutowireCapableBeanFactory {
 
     @Override
-    public Object genBean(BeanDefinition definition) {
+    protected BeanDefinition getDefinition(String id) {
+        return null;
+    }
+
+    @Override
+    public Object createBean(BeanDefinition definition) {
         if (definition != null) {
             String className = definition.getClassName();
             Class<?> aClass = ReflectUtis.getClass(className);
-            Object o = genBean(aClass);
+            Object o = createBean(aClass);
             //bean的属性填充（调用set方法设置属性）
             populateBean(aClass, o, definition);
             //bean的初始化（调用初始化方法，完成一些操作）
@@ -102,11 +107,6 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         return primitiveEnum.getPrimitiveValue(value);
     }
 
-    private Object genBean(Class<?> type) {
-        Object obj = ReflectUtis.newInstance(type);
-        return obj;
-    }
-
 
     protected void initBean(Class<?> aClass, Object bean, BeanDefinition definition) {
         //TODO BeanPostProcessor bean初始化前后流程，Spring AOP就是通过这个实现的
@@ -149,5 +149,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
     public static void main(String[] args) {
         String name = Integer.class.getName();
         System.out.println(name);
+    }
+
+    @Override
+    public <T> T createBean(Class<T> type) {
+        T t = ReflectUtis.newInstance(type);
+        return t;
     }
 }

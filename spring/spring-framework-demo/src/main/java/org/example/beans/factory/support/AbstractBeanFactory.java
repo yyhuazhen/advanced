@@ -18,11 +18,11 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             //根据BeanDefiniton是否为配置的单例，如果是则添加缓存，如果不是则重新创建，默认为单例
             //TODO 在通过BeanDefinition对象创建bean的时候可以通过BeanFactoryPostProcessor对BeanDefinition进行修改
             if(definition.isSingleton()) {
-                Object bean = genBean(definition);
+                Object bean = createBean(definition);
                 super.registryBean(id, bean);
                 return bean;
             }else if(definition.isScope()){
-               return genBean(definition);
+               return createBean(definition);
             }else if(definition.isThread()){
                 //TODO 需要清楚scope配为THREAD的时候是怎么处理的
             }
@@ -32,5 +32,5 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 
     protected abstract BeanDefinition getDefinition(String id);
 
-    public abstract Object genBean(BeanDefinition definition);
+    public abstract Object createBean(BeanDefinition definition);
 }

@@ -17,7 +17,7 @@ public class ReflectUtis {
         return null;
     }
 
-    public static Object newInstance(Class<?> type) {
+    public static <T> T newInstance(Class<T> type) {
         if(type!=null){
             try {
                 return type.newInstance();
