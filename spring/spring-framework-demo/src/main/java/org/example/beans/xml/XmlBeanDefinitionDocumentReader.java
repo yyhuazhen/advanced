@@ -39,7 +39,7 @@ public class XmlBeanDefinitionDocumentReader {
             String ref = element.attributeValue("ref");
             Object objValue = null;
             if (StringUtils.isNotBlank(value) && StringUtils.isNotBlank(ref)) {
-                throw new RuntimeException("property error beacause ref and value only one, please your property");
+                throw new RuntimeException("property error beacause ref and value only one, please check your property");
             } else if (StringUtils.isNotBlank(value)) {
                 //TODO 基本类型处理流程
                 objValue = TypedStringValue.builder().value(value).build();
