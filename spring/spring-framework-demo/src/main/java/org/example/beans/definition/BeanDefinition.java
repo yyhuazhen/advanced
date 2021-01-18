@@ -21,7 +21,7 @@ public class BeanDefinition {
 
     public boolean isSingleton() {
         //默认为singleton
-        return StringUtils.isBlank(this.scope) || StringUtils.equals(this.scope, SINGLETON);
+        return StringUtils.isNotBlank(this.scope) || StringUtils.equals(this.scope, SINGLETON);
     }
 
     public boolean isScope() {
